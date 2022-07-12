@@ -8,6 +8,14 @@
     "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaskarandeepSaini/HomeShopping.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaskarandeepSaini/HomeShopping/issues"
+  },
+  "homepage": "https://github.com/JaskarandeepSaini/HomeShopping#readme"
 }
