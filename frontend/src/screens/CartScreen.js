@@ -58,7 +58,7 @@ export default function CartScreen() {
                         src={item.image}
                         alt={item.name}
                         className="img-fluid rounded img-thumbnail"
-                      ></img>
+                      ></img>{' '}
                       <Link to={`/product/${item.slug}`}>{item.name}</Link>
                     </Col>
                     <Col md={3}>
@@ -70,8 +70,8 @@ export default function CartScreen() {
                         disabled={item.quantity === 1}
                       >
                         <i className="fas fa-minus-circle"></i>
-                      </Button>
-                      <span>{item.quantity}</span>
+                      </Button>{' '}
+                      <span>{item.quantity}</span>{' '}
                       <Button
                         variant="light"
                         onClick={() =>
@@ -103,7 +103,7 @@ export default function CartScreen() {
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   <h3>
-                    Subtotal ({cartItems.reduce((a, c) => a + c.quantity, 0)}
+                    Subtotal ({cartItems.reduce((a, c) => a + c.quantity, 0)}{' '}
                     items) : $
                     {cartItems.reduce((a, c) => a + c.price * c.quantity, 0)}
                   </h3>
