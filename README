@@ -1,0 +1,6 @@
+ !!!Currently the link is not working due to changed policies of HEROKU deployement!!!
+ 
+ 
+ This website allows its users to buy or sell products online. 
+ Features like rating the website and giving reviews have also been implemented. 
+ Implementation has been done using react, express, nodeJS, MongoDB (MERN).
